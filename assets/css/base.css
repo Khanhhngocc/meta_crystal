@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --color1: rgb(236,29,38);
+    --color2: rgb(1,90,169);
+    --font: "Raleway", sans-serif;
+}
+* {
+    font-family: var(--font);
+    text-decoration: none;
+    box-sizing: border-box;
+} 
+
+.container {
+    max-width: 1290px;
+    width: 100%;
+    margin: auto;
+    padding: -1px 190px;
+}
+
+.container-2 {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    margin-top: 0;
+    z-index: 1;
+}
+
+.header {
+    display: block;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.header .header-top {
+    height: 85px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 56px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-top .inner-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 650;
+    color: black;
+}
+
+.header-top img {
+    max-width: 100%;
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header .inner-menu ul {
+    display: flex;
+}
+
+.header .inner-menu ul li {
+    padding: 0 20px;
+}
+
+.header .inner-menu ul li a {
+    font-size: 25px;
+    color: black;
+}
+
+.header .inner-menu ul li a:hover {
+    color: #c6c5c5;
+}
+
+.header .inner-menu ul li:nth-child(5) a {
+    font-size: 20px;
+}
+
+.header-main {
+    height: 50px;
+    background: linear-gradient(90deg, var(--color1), var(--color2));
+    display: flex;
+    text-align: center;
+}
+
+.header .header-main .inner-wrap a {
+    padding: 0 45px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+.header .header-main .inner-wrap a:hover {
+    text-decoration: underline;
+    color: #c6c5c5;
+}
+
+
+/* user */
+
+.user img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.user .inner-content {
+    background: rgb(240,242,246);
+    border-radius: 37px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+.user .writer .name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 7px;
+    margin-top: 8px;
+}
+
+.user i {
+    color: var(--color1);
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.user span {
+    color: var(--color1);
+
+}
+
+
+
+.user-ask {
+    display: flex;
+    background: #fff;
+    border-radius: 100px;
+    padding: 10px 10px 0 10px;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+
+}
+
+.user-ask .inner-content {
+    width: 100%;
+}
+
+.user-ask .writer {
+    width: 100%;
+}
+
+.user-ask .user-ask {
+    width: 100%;
+}
+
+.user-ask .content {
+    width: 100%;
+    color: #c8c8c8;
+    font-weight: 500;
+}
+
+
+/* end user */
+
+.user-infor {
+    display: flex;
+    align-items: center;
+}
+
+.user-infor img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-infor .name {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+.user-infor .time {
+    font-size: 15px;
+    color: #b5bac7;
+}
+
+/* .user-post .inner-title {
+    text-align: center;
+    font-size: 30px;
+} */
+
+
+
+
+
+
+/* .user-chart a {
+    display: flex;
+    align-items: center;
+}
+
+.user-chart a img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-chart .name {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.user-chart a {
+    color: black;
+    margin-left: 22px;
+}
+
+.user-chart .inner-title {
+    font-size: 20px;
+    text-align: center;
+} */
+
+
+
+.user-cmt {
+    margin-top: 15px;
+    display: flex;
+    background: #fff;
+    border-radius: 100px;
+    padding: 10px 10px 0 10px;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.user-cmt .inner-content {
+    width: 100%;
+}
+
+.user-cmt .writer {
+    width: 100%;
+}
+
+.user-cmt .user-ask {
+    width: 100%;
+}
+
+.user-cmt .content {
+    width: 100%;
+    color: #c8c8c8;
+    font-weight: 500;
+}
+
+
+
+
+

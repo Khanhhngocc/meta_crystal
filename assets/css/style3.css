@@ -1,0 +1,354 @@
+.header-main .inner-wrap a:nth-child(3){
+    text-decoration: underline;
+    color: #c6c5c5;
+}
+
+.section-one {
+    margin-top: 7px;
+}
+.section-main {
+    margin-top: 108px;
+}
+
+.section-main .container-2 {
+    display: flex;
+}
+
+.section-main .inner-menu {
+    max-width: 200px;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    top: 135px;
+    left: 0;
+    padding: 75px 6px;
+    height: 1110px;
+    position: sticky;
+}
+
+.section-main .sidebar {
+    max-width: 333px;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    height: 100%;
+    top: 135px;
+    left: 0;
+    overflow: auto;
+    /* border: 2px solid #a5aab1; */
+
+}
+
+.section-main .section-one {
+    max-width: 1100px;
+    width: 100%;
+}
+
+.section-one .main {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0 0 30px;
+}
+
+
+/* section-one */
+
+.section-one .wrapper {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    background: #dfebff;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.section-one .wrapper:nth-child(3){
+    background-color: #fff5de;
+}
+
+.section-one .wrapper:nth-child(4){
+    background-color: #e4b5b4;
+}
+
+.section-one .catalogue {
+    background: var(--color2);
+    padding: 8px;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.section-one .content-top  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-one .user-vote {
+    display: flex;
+    align-items: center;
+}
+
+.section-one .voter {
+    width: 24px;
+    height: 24px;
+}
+
+.section-one .number-vote {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.section-one .photo-post {
+    margin-top: 25px;
+    display: flex;
+}
+
+.section-one .photo {
+    width: calc(100%/4 - 10px);
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.user-post .photo img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    aspect-ratio: 13/20;
+
+}
+
+.user-post .photo:nth-child(3) img {
+    aspect-ratio: 4/3;
+    height: 314px;
+    width: auto;
+}
+
+.section-one .wrapper:nth-child(3) .photo {
+    width: 100%;
+}
+
+.section-one .wrapper:nth-child(3) .photo img {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+    object-fit: contain;
+}
+
+.section-one .wrapper:nth-child(4) .photo {
+    width: 100%;
+}
+
+.section-one .wrapper:nth-child(4) .photo img {
+    width: 100%;
+    aspect-ratio: 2.2/1;
+    object-fit: cover;
+}
+
+/* end section-one */
+
+/* box */
+.section-main .section-one .inner-wrap {
+    padding: 30px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgb(171, 220, 248), #fff);
+}
+
+.section-main .section-one .box-out {
+    width: calc(100%/3 - 15px);
+    margin-right: 10px;
+    overflow: hidden;
+    height: 185px;
+    padding: 0;
+    position: relative;
+}
+
+
+.section-main .section-one .box-out p {
+    font-size: 15px;
+}
+
+.section-main .section-one .box-out:nth-child(2) p {
+    margin-bottom: 18px;
+}
+
+.section-main .section-one .box-out {
+    width: calc(100%/3 - 15px);
+    margin-right: 20px;
+    overflow: hidden;
+    height: 185px;
+    padding: 24px 0;
+    position: relative;
+}
+
+.section-main .section-one .box {
+    background: #fff;
+    height: 150px;
+    border-radius: 30px;
+    padding: 20px 20px 20px 10px;
+}
+
+.section-main .section-one .box-out:nth-child(3){
+    margin-right: 0;
+}
+
+
+.section-main .section-one .crown {
+    position: absolute;
+    top: 2px;
+    left: 13px;
+}
+
+
+.section-main .section-one .crown img {
+    height: 40px;
+    z-index: 2;
+}
+
+.section-main .section-one .user {
+    display: flex;
+    align-items: center;
+}
+
+.section-main .section-one .user img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.section-main .section-one .user .name {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.section-main .section-one .box-out .para {
+    margin: 5px 0;
+}
+
+.section-main .section-one .user-vote {
+    display: flex;
+    align-items: center;
+}
+
+.section-main .section-one .user-vote i {
+    color: var(--color1);
+}
+
+.section-main .section-one .number-vote {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.section-main .section-one .box:hover {
+    transform: translateY(-8px);
+    transition: all 0.7s;
+}
+
+.section-main .section-one .box:hover .crown {
+    top: -22px;
+    left: 13px;
+}
+
+/* end box */
+
+
+/* menu */
+
+.section-main .inner-menu h2 {
+    width: 100%;
+    height: 73px;
+    font-size: 27px;
+    font-weight: 700;
+    padding: 10px 10px 0 0;
+    margin: 0 0 20px 0;
+}
+
+.section-main .inner-menu .look-up {
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-right: 68px;
+    margin-bottom: 10px;
+    color: #99999a;
+}
+
+.section-main .inner-menu .look-up span {
+    margin-left: 10px;
+}
+
+.section-main .list-trend .box-trend {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-main .list-trend .box-inf {
+    display: flex;
+    align-items: center;
+}
+
+.section-main .list-trend .box-inf a i {
+    font-size: 40px;
+    margin-right: 10px;
+    color:  #e4b5b4;
+}
+
+.section-main .box-decs .inner-title {
+    margin: 5px 0;
+}
+
+.section-main .box-decs .num-cmt {
+    color: #c8c8c8;
+}
+
+
+
+/* end menu */
+
+
+/* sidebar */
+
+.side-bar .wrapper {
+    padding: 61px 20px;
+}
+
+.chart-top {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-chart {
+    display: flex;
+    align-items: center;
+    border: 2px solid #a5aab1;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.user-chart a img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.user-chart .name {
+    font-weight: 700;
+    margin-right: 10px;
+    border-right: 2px solid #a5aab1;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+.user-chart .inner-title {
+    font-size: 16px;
+}
+
+
