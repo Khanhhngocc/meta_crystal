@@ -66,31 +66,31 @@
 }
 
 .section-main .story-main .inner-story:nth-child(1){
-    background-image: url(/crytal/assets/images/kl.png);
+    background-image: url(./assets/images/kl.png);
 }
 
 .section-main .story-main .inner-story:nth-child(2) {
-    background-image: url(/crytal/assets/images/Ben.png);
+    background-image: url(./assets/images/Ben.png);
 }
 
 .section-main .story-main .inner-story:nth-child(3) {
-    background-image: url(/crytal/assets/images/Dylan\ Tek.png);
+    background-image: url(./assets/images/Dylan\ Tek.png);
 }
 
 .section-main .story-main .inner-story:nth-child(4) {
-    background-image: url(/crytal/assets/images/Kevin\ Mai.png);
+    background-image: url(./assets/images/Kevin\ Mai.png);
 }
 
 .section-main .story-main .inner-story:nth-child(5) {
-    background-image: url(/crytal/assets/images/Scarlet.png);
+    background-image: url(./assets/images/Scarlet.png);
 }
 
 .section-main .story-main .inner-story:nth-child(6) {
-    background-image: url(/crytal/assets/images/Tim_Tran.png);
+    background-image: url(./assets/images/Tim_Tran.png);
 }
 
 .section-main .story-main .inner-story:nth-child(7) {
-    background-image: url(/crytal/assets/images/Ben.png);
+    background-image: url(./assets/images/Ben.png);
     margin-right: 0;
 }
 
